@@ -12,5 +12,6 @@ void test(const char * file){
 int main() {
   test("poc.cpp");
   test("mtime.h");
+  test("non-existent");
   return 0;
 }
