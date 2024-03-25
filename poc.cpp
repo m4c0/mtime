@@ -14,4 +14,5 @@ int main() {
   test("poc.cpp");
   test("mtime.h");
   test("non-existent");
+  test(".");
 }
