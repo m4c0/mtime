@@ -1,12 +1,9 @@
 #pragma leco tool
+import mtime;
 import silog;
 
-#define MTIME_IMPLEMENTATION
-#define MTIME_ERROR(x) silog::log(silog::error, "Error: %s", (x))
-#include "mtime.h"
-
 void test(const char *file) {
-  auto m = mtime_of(file);
+  auto m = mtime::of(file);
   silog::log(silog::info, "Modification time of [%s]: %llu", file, m);
 }
 
