@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 #define MTIME_IMPLEMENTATION
-#define MTIME_ERROR(x) puts
 #include "mtime.h"
 
 void test(const char * file){
