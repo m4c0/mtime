@@ -1,10 +1,10 @@
 module;
-#define MTIME_IMPLEMENTATION
-#include "mtime.h"
+#define MCT_STAT_IMPLEMENTATION
+#include "../mct/mct-stat.h"
 
 export module mtime;
 
 export namespace mtime {
 using t = uint64_t;
-constexpr const auto of = mtime_of;
+constexpr const auto of = mct_stat_mtime;
 }; // namespace mtime

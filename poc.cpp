@@ -9,7 +9,7 @@ void test(const char *file) {
 
 int main() {
   test("poc.cpp");
-  test("mtime.h");
+  test("../mct/mct-stat.h");
   test("non-existent");
   test(".");
 }
